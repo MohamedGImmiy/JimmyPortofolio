@@ -15,6 +15,26 @@
     }
   });
 
+    // counters 
+    // Add counter
+$(document).ready(function() {
+    
+    $('.counter-num').counterUp({
+        delay: 10,
+        time: 2000
+    });
+});
+
+// Add animation/ Initialize Woo
+$(document).ready(function() {
+    
+    'use strict';
+   
+    new WOW().init();
+    
+});
+    
+    
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');

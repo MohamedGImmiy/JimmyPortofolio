@@ -9,3 +9,9 @@
 .margin-row{
     margin-top: 12px;
 }
+.background{
+    background-image: url('../img/testimonial-bg.jpg');
+    background-position: 50% 50%;
+    background-attachment: fixed;
+
+} 
